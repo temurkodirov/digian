@@ -1,0 +1,1 @@
+function g(n){const t=new Date(n),a=t.getFullYear(),o=(t.getMonth()+1).toString().padStart(2,"0"),r=t.getDate().toString().padStart(2,"0");let e=t.getHours();const s=t.getMinutes().toString().padStart(2,"0"),c=e>=12?"PM":"AM";return e=e%12||12,`${r}.${o}.${a} ${e}:${s} ${c}`}export{g as f};

@@ -1,0 +1,1 @@
+var l=Object.defineProperty;var o=(t,a,s)=>a in t?l(t,a,{enumerable:!0,configurable:!0,writable:!0,value:s}):t[a]=s;var e=(t,a,s)=>(o(t,typeof a!="symbol"?a+"":a,s),s);class g{constructor(){e(this,"hasPrevious",!1);e(this,"hasNext",!1);e(this,"currentPage",1);e(this,"totalPages",1);e(this,"pageSize",1);e(this,"totalItems",1)}}export{g as P};
